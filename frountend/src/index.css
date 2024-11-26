@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family:sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-color: #000;
+  color: #FAF7F0;
+}
+
+.GetStarted{
+  section{
+    div{
+      height: 6rem;
+      border-top-left-radius: 18px;
+      width: 13rem;
+      border: 1px solid #fff;
+      background-color: #229799;
+      position: relative;
+      top: 2rem;
+      left: 17rem;
+      pre{
+        margin-left: 1rem;
+        margin-top: 1rem;
+        animation: slide2 1s ease-in-out 7s  forwards;
+      }
+      span{
+font-size: 20px;
+margin-left: 15px;
+max-inline-size: 2px;
+animation: slide2 1s ease-in-out 13s  forwards;
+      }
+      h5{
+        margin-left: 5px;
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    
+    }
+    video{
+      height: 5rem;
+      margin-left: 9rem;
+      position: relative;
+      top: -1rem;
+    }
+  }
+  & div{
+    position: relative;
+    top: 3rem;
+margin-left: 1rem;
+    h1{
+      font-size: 63px;
+      line-height: 6rem;
+      font-family:'Times New Roman', Times, serif;
+      width: 33rem;
+position: relative;
+top: -2rem;
+    }
+   p{
+    font-size: 21px;
+    width: 34rem;
+    position: relative;
+    line-height: 2rem;
+top: 2rem;
+   }
+div{
+  background-color: #229799;
+  width: 10rem;
+  height: 2.2rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+cursor: pointer;
+color: #fff;
+margin-left: 7rem;
+position: relative;
+top: 5rem;
+  &:hover{
+ background-color: transparent;
+ border:  1px solid #fff;
+  }
+}
+}
+& main{
+  overflow: auto;
+  overflow-y: hidden;
+  /* border: 1px solid #fff; */
+  height: 47rem;
+  width: 79.3rem;
+  margin-left: 16rem;
+margin-top: -37rem;
+opacity: 0.8;
+mask-image: linear-gradient(to right ,transparent,#000 60%);
+-webkit-mask-image:  linear-gradient(to right ,transparent,black 60%);
+  img{
+    width: 79.5rem;
+    height: 46rem;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+}
+}
+}
+.mg1{
+   animation: slide175 1s ease-in-out 8s  forwards; 
+}
+ .mg2{
+  animation: slide175 1s ease-in-out 16s  forwards;
+}
+.mg3{
+  animation: slide175  1s ease-in-out 24s  forwards;
+}
+.mg4{
+  animation: slide175  1s ease-in-out 32s  forwards;
+}
+.mg5{
+  animation: slide175 1s ease-in-out 40s  forwards;
+} 
+@keyframes slide175 {
+  0%{
+    height: 46rem;
+  }
+  100%{
+    height: 0rem;
+  }
+}
+ @keyframes slide2 {
+  100%{
+font-size: 0rem;
+  }
+} 
+
+/* // .optional part */
+.optional{
+  height: 0.7rem;
+  width: 0.7rem;
+position: relative;
+z-index: 999;
+top: 1.6rem;
+margin-left: 16rem;
+border-radius: 50%;
+  background-color: #229799;
+}
+
+.open{
+ opacity: 0;
+  margin-top: -2rem;
+  transition: all 1s linear;
+}
+
+.open2{
+  transition: all 2s linear;
+  position: relative;
+top: 4.8rem;
+min-height: 48.2rem;
+}
+.open3{
+  transition: all 2s linear;
+  img{
+  position: relative;
+top: -8.4rem;
+min-height: 48.2rem;
+  }
+}
+/* // .optional part */
+/* 
+//SingUp part */
+
